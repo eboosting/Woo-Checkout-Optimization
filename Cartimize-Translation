@@ -1,0 +1,34 @@
+/** Woo Checkout Optimization by Cartimize ***
+* Translate EN "optional info" anchors on checkout form
+* Javascript code goes into the cart page
+*/
+
+
+/*German Deutsch*/
+
+<script>
+function reLang() {
+
+document.querySelector("#cartimize_company_name_show_cont_shipping_company > a").innerText = "Firmenname hinzufügen";
+document.querySelector("#cartimize_address_2_show_cont_shipping_address_2 > a").innerText = "Adresszeile hinzufügen";
+document.querySelector("#customer_details > div.col-2 > div.woocommerce-additional-fields > div > p.form-row.form-row-wide.cartimize_order_comments_show_cont > a").innerText = "Eine Versandnotiz hinzufügen";
+document.querySelector("#cartimize_bill_to_different_address_cont > label > span").innerText = "Versandadresse entspricht Rechnungsadresse";
+}
+window.onload = reLang;
+
+</script>
+
+
+/*Replace with your language*/
+
+<script>
+function reLang() {
+
+document.querySelector("#cartimize_company_name_show_cont_shipping_company > a").innerText = "translate_here";
+document.querySelector("#cartimize_address_2_show_cont_shipping_address_2 > a").innerText = "translate_here";
+document.querySelector("#customer_details > div.col-2 > div.woocommerce-additional-fields > div > p.form-row.form-row-wide.cartimize_order_comments_show_cont > a").innerText = "translate_here";
+document.querySelector("#cartimize_bill_to_different_address_cont > label > span").innerText = "translate_here";
+}
+window.onload = reLang;
+
+</script>
